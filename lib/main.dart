@@ -29,10 +29,10 @@
             elevation: 0,
             leading: IconButton(
               onPressed: () {
-                // Aksi yang ingin dilakukan ketika ikon ditekan
+
               },
-              icon: Icon(Icons.menu), // Icon menu disini
-              color: Colors.white, // Warna ikon
+              icon: Icon(Icons.menu),
+              color: Colors.white,
             ),
           ),
           body: SingleChildScrollView(
@@ -185,10 +185,10 @@
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      SizedBox(height: 10),
+                      SizedBox(height: 5),
                       TextField(
                         decoration: InputDecoration(
-                          hintText: 'Tulis sesuatu tentang diri Anda...',
+                          hintText: 'Tulis catatan anda ....',
                           border: OutlineInputBorder(),
                         ),
                         maxLines: null,
